@@ -1,0 +1,176 @@
+.chamada1  {
+    align-items: center;
+    background-color: var(--bg-chamada-mobile);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.25rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.chamada1__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-top: 2.25rem;
+    text-transform: uppercase;
+}
+
+.chamada1__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
+
+.chamada2  {
+    align-items: center;
+    background-color: var(--cinza-claro);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    text-align: center;
+}
+
+.chamada2__titulo {
+    font-family: var(--montserrat);
+    font-size: 0rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+}
+
+.chamada2__texto {
+    font-size: 0rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
+
+.filmologia1__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-top: 2.25rem;
+    text-transform: uppercase;
+}
+
+.filmologia1__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
+
+.filmologia2__titulo {
+    font-family: var(--montserrat);
+    font-size: 0rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+}
+
+.filmologia2__texto {
+    color: var(--cinza-escuro);
+    font-size: 1.25rem;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .chamada1 {
+        background-image: url(../img/banner_starwars.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+    
+    .chamada1__texto {
+        font-size: 0rem;
+    }
+    .chamada1__titulo {
+        font-size: 0rem;
+    }
+
+    .chamada2 {
+        background-size: cover;
+        padding-top: 2.25rem;
+    }
+    
+    .chamada2__texto {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+    .chamada2__titulo {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+    .filmologia1__texto {
+        font-size: 0rem;
+    }
+    .filmologia1__titulo {
+        font-size: 0rem;
+    }
+
+    .filmologia2__texto {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+    .filmologia2__titulo {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada1 {
+        background-image: url(../img/banner_starwars.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+    .chamada1__texto {
+        font-size: 0rem;
+    }
+
+    .chamada1__titulo {
+        font-size: 0rem;
+    }
+
+    .chamada2 {
+        background-size: cover;
+        padding-top: 2.25rem;
+    }
+    .chamada2__texto {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+    .chamada2__titulo {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+    .fimologia1__texto {
+        font-size: 0rem;
+    }
+
+    .filmologia1__titulo {
+        font-size: 0rem;
+    }
+
+    .filmologia2__texto {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+    .filmologia2__titulo {
+        font-size: 1.25rem;
+        color: var(--cinza-escuro);
+    }
+
+}
+

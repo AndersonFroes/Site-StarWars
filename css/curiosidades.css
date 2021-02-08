@@ -1,0 +1,64 @@
+.curiosidades {
+    background-color: var(--cinza-claro);
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
+}
+
+.curiosidades__titulo {
+    color: var(--cinza-escuro);
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.curiosidades__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.curiosidades__item {
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+    box-sizing: border-box;
+    max-width: 450px;
+    padding: 2rem 0 2rem 6.5rem;
+}
+
+.curiosidades__item--deathstar {
+    background-image: url(../img/deathstar_logo.png);
+}
+
+.curiosidades__item--darthvader {
+    background-image: url(../img/darthvader_logo.png);
+}
+
+.curiosidades__item--falcon {
+    background-image: url(../img/falcon_logo.png);
+}
+
+.item__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.item__texto {
+    line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .curiosidades {
+        background-color: var(--cinza-claro);
+    }
+
+    .curiosidades__lista {
+        justify-content: space-around;
+    }
+}
+
